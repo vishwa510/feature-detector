@@ -15,3 +15,8 @@ Feature names : Height, Width, Depth, Volume, Wattage, Voltage, Maximum_weight_r
 
 ### Example of a Prediction
 
+![prediction](https://github.com/user-attachments/assets/3fc42816-543b-43e9-8171-26bef9120b1c)
+
+The entity_name provided for this image was "Height", i.e. the model should find the height of the product from the image
+
+In this prediction, the image was first given to YOLO to distinguish between width and height in the image using Bounding Boxes. After getting the boxes, OCR was performed only on the "Height" bounding box, and the result was "1.9 in".
